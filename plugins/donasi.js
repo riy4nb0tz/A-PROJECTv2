@@ -1,9 +1,8 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
         conn.reply(m.chat, `
 ╭───❉ *「  DONASI 」 * ❉─────•>
-╠➥ *PULSA : *
-╠➥ *DANA :  *
-╠➥ *GOPAY : *
+╠➥ *PULSA : 083153406515*
+╠➥ *GOPAY : Minta Ke Owner*
 ╰──────────────•>
 ┏━❉ *《HELP》* ❉━┓
 ╠➠ *${_p}owner*
