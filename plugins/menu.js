@@ -234,7 +234,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╠➥ *${_p}setwelcome [Teks]*
 ╠➥ *${_p}stopjadibot*
 ┗━━━━━━
-🔰-[ *POWERED BY A PROJECT* ]-🔰`
+🔰-[ *POWERED BY RIYAN BOTZ* ]-🔰`
     let header = conn.menu.header || '╔━❉ *《 %category 》* ❉━━'
     let body   = conn.menu.body   || '╠➭ *%cmd%islimit*'
     let footer = conn.menu.footer || '┗━━━━━━\n'
