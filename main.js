@@ -43,7 +43,7 @@ if (opts['server']) {
   app.listen(PORT, () => console.log('App listened on port', PORT))
 }
 global.conn = new WAConnection()
-let authFile = `${opts._[0] || 'A-PROJECTv2'}.data.json`
+let authFile = `${opts._[0] || 'RIYAN-BOTZ'}.data.json`
 if (fs.existsSync(authFile)) conn.loadAuthInfo(authFile)
 if (opts['big-qr'] || opts['server']) conn.on('qr', qr => generate(qr, { small: false }))
 if (opts['server']) conn.on('qr', qr => { global.qr = qr })
